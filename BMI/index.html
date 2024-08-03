@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <h1 style="color:#914F1E;">BMI Calculator</h1>
+    <form style="background-color:#9CA986;" action="calculate_bmi.php" method="post">
+        <label for="weight">Enter your weight (in kg):</label>
+        <input type="number" id="weight" name="weight" step="0.1" required><br><br>
+        
+        <label for="heightFeet">Enter your height:</label><br>
+        <input type="number" id="heightFeet" name="heightFeet" step="1" required placeholder="Feet">
+        <input type="number" id="heightInches" name="heightInches" step="0.1" required placeholder="Inches"><br><br>
+        
+        <input type="submit" value="Calculate BMI">
+    </form>
+</body>
+</html>
